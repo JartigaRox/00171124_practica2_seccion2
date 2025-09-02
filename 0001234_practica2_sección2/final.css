@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: repeat(3, 1fr); 
+  gap: 10px;
+  height: 500px; 
+}
+
+.item {
+  background: #FFA500;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.img-scale {
+  background:  #FFA500;
+  width: 450px;
+  height: 450px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
