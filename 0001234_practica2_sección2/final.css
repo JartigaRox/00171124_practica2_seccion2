@@ -7,17 +7,9 @@
 }
 
 .item {
-  background: #FFA500;
+  border: 2px solid #FFA500;
   padding: 20px;
   text-align: center;
-  border-radius: 20px;
-}
-
-.img-scale {
-  background:  #FFA500;
-  width: 450px;
-  height: 450px;
-  object-fit: contain;
   border-radius: 20px;
 }
 
